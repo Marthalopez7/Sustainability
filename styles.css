@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 75vhs;
+    background-image: url(/images/pexels-lyovtravels-levon-13415559.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
