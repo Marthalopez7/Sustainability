@@ -8,10 +8,19 @@
 body {
     width: 100%;
     margin: 0;
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+
 }
 
 p {
     margin: 10px;
+    font-size: 1.2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 main {
@@ -50,7 +59,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #61888C;
+    background-color: #446164;
 }
 
 nav h3 {
@@ -125,7 +134,6 @@ nav ul a {
     width: 50%;
     margin-bottom: 1%;
     margin-right: 1%;
-    margin-left: 1%;
     color: #f2f2f2;
     background-color: #325033;
 }
@@ -136,11 +144,67 @@ nav ul a {
     width: 47%;
     margin-bottom: 1%;
     margin-right: 1%;
+    margin-left: 1%;
 }
 
 .item04 > h3 {
     text-align: center;
 }
+
+.item08 {
+    width: 49%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #446164;
+    color: #f2f2f2;
+}
+
+.item09 {
+    width: 48%;
+    margin: 1%;
+
+}
+
+.item10 {
+    background-color: #022026;
+    color: white;
+}
+.item10 p{
+    text-align: center;
+}
+.item10 img{
+width: 33%;
+margin-bottom: 1%;
+}
+
+.item11 {
+    background-color: #022026;
+}
+
+.item12,
+.item13,
+.item14 {
+    width: 30%;
+}
+.item15{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .item16,
+.item17, 
+.item18{
+    background-color: #446164;
+    color: #f2f2f2;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.item15 p {
+    padding: 2%;
+}
+
 footer {
     background-color: #1A2607;
     color: #f2f2f2;
