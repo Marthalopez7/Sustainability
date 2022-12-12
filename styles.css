@@ -84,6 +84,11 @@ nav ul li {
 nav ul a {
     color: #f2f2f2;
     text-decoration: none;
+    transition: ease-in-out 350ms;
+}
+
+nav ul a:hover {
+    color: #FFA794;
 }
 
 
@@ -162,6 +167,7 @@ nav ul a {
     margin-top: 1%;
     margin-bottom: 1%;
     background-color: #446164;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
     color: #f2f2f2;
 }
 
@@ -173,6 +179,7 @@ nav ul a {
 
 .item10 {
     background-color: #022026;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
     color: white;
 }
 .item10 p{
@@ -208,16 +215,19 @@ margin-bottom: 1%;
 
 .item16 {
     background-color: #446164;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
     margin-left: 1%;
 }
 
 .item17 {
     background-color: #446164;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
     margin-left: 1%;
 }
 
 .item18 {
     background-color: #446164;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
     margin-left: 1%;
 }
 
